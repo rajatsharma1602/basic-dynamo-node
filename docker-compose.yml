@@ -1,0 +1,7 @@
+services:
+  # DynamoDB Server
+  dynamodb-local:
+    image: amazon/dynamodb-local:latest
+    container_name: dynamodb-local-basic
+    ports:
+      - "8000:8000"
